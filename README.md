@@ -11,6 +11,8 @@ Elmah.Io.ElasticSearch is configured pretty much like every other storage implem
     <elmah>
         <errorLog type="Elmah.Io.ElasticSearch.ElasticSearchErrorLog, Elmah.Io.ElasticSearch" connectionStringName="ElmahIoElasticSearch" />
     </elmah>
+    
+Tip: Make sure you did not forget trailing "/" in your connectionString.
 
 Replace the connection string URL with your ElasticSearch URL and add the elmah config section as explained on the [offical ELMAH site](https://code.google.com/p/elmah/).
 
